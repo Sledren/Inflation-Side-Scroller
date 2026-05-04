@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #f3f3f3;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+main { text-align: center; }
+canvas {
+  border: 3px solid #eee;
+  background: #1b1b1b;
+  image-rendering: pixelated;
+}
+.hud { display:flex; justify-content:space-between; margin:.4rem auto; width:416px; }
